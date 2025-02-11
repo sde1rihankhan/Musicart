@@ -1,0 +1,276 @@
+body{
+    margin: 0px;
+}
+iframe{
+    width: 100%;
+    border: 0px;
+}
+@media screen and (max-width: 550px) {
+    iframe{
+    display: none;
+    }
+  }
+.page1{
+    background-color: #2E0052;
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 40px 0px 0px 55px;
+}
+@media screen and (max-width: 550px) {
+    .page1{
+    display: none;
+    }
+  }
+.page2{
+    margin: 40px 38px 0px 55px;
+}
+@media screen and (max-width: 550px) {
+    .page2{
+    display: none;
+    }
+  }
+.image1{
+    height: 41.5vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 40px 0px 0px 55px;
+}
+@media screen and (max-width: 845px) {
+    .image1{
+    height: 30.5vh;
+    }
+  }
+@media screen and (max-width: 391px) {
+    .image1{
+        height: 27.5vh;
+        margin: 40px 0px 0px 35px;
+    }
+  }
+  @media screen and (min-width: 343px) and (max-width:391px){
+    .image1{
+        height: 32vh;
+    }
+  }
+.image2{
+    height: 11vh;
+    border-radius: 10px;
+    margin: 10px 0px 0px 55px;
+    border: 1px solid;
+}
+.image3{
+    height: 11vh;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 10px 0px 0px ;
+}
+@media screen and (max-width: 845px) {
+    .image2{
+    height: 8.1vh;
+    }
+  }
+@media screen and (max-width: 845px) {
+    .image3{
+    height: 8vh;
+    }
+  }
+.page4{
+    display: flex;
+}
+@media screen and (max-width: 650px) {
+    .page4{
+    display: block;
+    }
+  }
+.page5{
+    margin: 35px 0px 0px 30px;
+}
+@media screen and (max-width: 650px) {
+    .page5{
+    margin: 25px 0px 0px 55px;
+    }
+  }
+  @media screen and (max-width: 391px) {
+    .page5{
+    margin: 25px 0px 0px 35px;
+    }
+  }
+.page6{
+    font-size: 25px;
+    margin: 25px 0px 13px;
+}
+.page7{
+    margin: 7px 0px;
+}
+.page8{
+    margin: 10px 0px 5px;
+}
+.page9{
+    margin: 0px;
+    padding: 0px 37px 0px 24px;
+}
+span{
+    font-size: 18px;
+}
+.page10{
+    background-color: #FFD600;
+    padding: 7px 56px;
+    border-radius: 30px;
+    border: 0px;
+}
+.page11{
+    background-color: #FFB800;
+    padding: 7px 62px;
+    border-radius: 30px;
+    border: 0px;
+}
+@media screen and (max-width: 400px) {
+    .page10{
+        padding: 7px 32%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .page11{
+        padding: 7px 34.5%;
+    }
+  }
+.page12{
+    margin: 13px 0px 0px;
+}
+.page13{
+    margin: 05px 0px 20px;
+}
+.page14{
+    display:flex ;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.contant40{
+    background-color: #2E0052;
+    height: 10vh;
+}
+@media screen and (min-width: 550px) {
+    .contant40{
+    display: none;
+    }
+  }
+.contant23{
+    display: flex;
+    justify-content: center;
+}
+.image5{
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+}
+.contant20{
+    width: 97%;
+    border-radius: 40px;
+    border: 0px;
+}
+.contant42{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 13px 0px 0px ;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(174, 174, 174);
+    width: 90%;
+    border-radius: 7px;
+    align-items: center;
+    gap: 6px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.page16{
+    margin: 20px 0px 13px 20px;
+}
+@media screen and (min-width: 550px) {
+    .page16{
+    display: none;
+    }
+  }
+.page17{
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px;
+}
+@media screen and (min-width: 550px) {
+    .page17{
+    display: none;
+    }
+  }
+.page18{
+    background-color: #FFD600;
+    padding: 7px 34%;
+    border-radius: 30px;
+    border: 0px;
+}
+/* @media screen and (max-width: 391px) {
+    .page19{
+        display: flex;
+        gap: 30px;
+    }
+  } */
+  @media screen and (max-width: 450px) {
+    .image2{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .image3{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 391px) {
+    .image10{
+        height: 28vh;
+        padding: 33px 0px 0px ;
+    }
+  }
+  /* @media screen and (max-width: 391px) {
+    .page19{
+        align-items: center;
+    }
+  } */
+  @media screen and (min-width: 391px) {
+    .image10{
+        display: none ;
+    }
+  }
+.w3-display-container{
+    margin: 0px;
+}
+.w3-content{
+    margin: 0px;
+}
+@media screen and (max-width: 450px) {
+    .image1{
+        display: none ;
+    }
+  }
+  .mySlides{
+    margin: 30px 80px;
+  }
+  @media screen and (max-width: 391px) {
+    .mySlides{
+        margin: 30px 70px !important;
+    }
+  }
+  @media screen and (max-width: 366px) {
+    .mySlides{
+        margin: 30px 62px !important;
+    }
+  }
+  @media screen and (min-width: 450px) {
+    .page15{
+        display: none ;
+    }
+  }
+  .w3-black{
+    margin: 0px 0px 0px 0px;
+  }
