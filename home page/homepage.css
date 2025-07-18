@@ -385,6 +385,7 @@ span{
 }
 .contant39{
     color: white;
+    margin-right:10px ;
 }
 .contant40{
     background-color: #2E0052;
@@ -436,4 +437,79 @@ span{
 .contant51{
     padding: 5px;
     border-radius: 5px;
+}
+.cart{
+    display: none;
+    /* justify-content: left; */
+}
+.carts{
+    display: flex;
+    gap: 20px;
+    margin-left: 5.5rem;
+    /* justify-content: c; */
+}
+@media screen and (max-width: 1300px) {
+    .carts{
+        display: none;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .cart{
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+@media screen and (min-width: 1200px){
+    .cart{
+        gap: 35px !important;
+    }
+}
+@media screen and (min-width: 1120px){
+    .cart{
+        gap: 14px;
+    }
+}
+@media screen and (max-width: 1102px){
+    .cart{
+        gap: 37px;
+    }
+}
+@media screen and (max-width: 945px){
+    .cart{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 890px){
+    .cart{
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 839px){
+    .cart{
+        gap: 0px;
+    }
+}
+@media screen and (max-width: 823px){
+    .cart{
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 711px){
+    .cart{
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 615px){
+    .cart{
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 555px){
+    .cart{
+        gap: 0px;
+        margin-bottom: 7rem;
+    }
 }
