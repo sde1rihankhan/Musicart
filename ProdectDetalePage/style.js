@@ -15,3 +15,7 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+function newPage(){
+  window.location.href = "http://127.0.0.1:5502/AddToCart/Addcart.html"
+}
