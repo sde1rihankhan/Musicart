@@ -124,6 +124,7 @@ span{
     padding: 7px 62px;
     border-radius: 30px;
     border: 0px;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 400px) {
     .page10{
@@ -210,12 +211,6 @@ textarea:focus, input:focus{
     border-radius: 30px;
     border: 0px;
 }
-/* @media screen and (max-width: 391px) {
-    .page19{
-        display: flex;
-        gap: 30px;
-    }
-  } */
   @media screen and (max-width: 450px) {
     .image2{
         display: none;
@@ -232,11 +227,6 @@ textarea:focus, input:focus{
         padding: 33px 0px 0px ;
     }
   }
-  /* @media screen and (max-width: 391px) {
-    .page19{
-        align-items: center;
-    }
-  } */
   @media screen and (min-width: 391px) {
     .image10{
         display: none ;

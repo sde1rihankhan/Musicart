@@ -88,64 +88,7 @@ cartItem.forEach((item)=>{
     <p class="contant30">Discription - ${item.discription}</p>
     `
     itemCart.appendChild(imageCart)
+    imageCart.addEventListener("click",()=>{
+        window.location.href = "http://127.0.0.1:5502/Musicart/ProdectDetalePage/index.html"
+    })
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let detalePage = document.querySelectorAll(".contant33")
-
-
-// detalePage.addEventListener("click",()=>{
-//     console.log("hii");
-    
-// })
