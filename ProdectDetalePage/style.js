@@ -23,5 +23,5 @@ function nextPage(){
   window.location.href = "http://127.0.0.1:5502/CheckoutPage/index.html"
 }
 function backPage(){
-  window.location.href = "http://127.0.0.1:5502/AddToCart/index.html"
+  window.location.href = "http://127.0.0.1:5502/Musicart/homePage/index.html"
 }
