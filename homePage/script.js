@@ -89,6 +89,6 @@ cartItem.forEach((item)=>{
     `
     itemCart.appendChild(imageCart)
     imageCart.addEventListener("click",()=>{
-        window.location.href = "http://127.0.0.1:5502/Musicart/ProdectDetalePage/index.html"
+        window.location.href = "http://127.0.0.1:5500/ProdectDetalePage/index.html"
     })
 })

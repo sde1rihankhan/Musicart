@@ -17,11 +17,11 @@ function showDivs(n) {
 }
 
 function newPage(){
-  window.location.href = "http://127.0.0.1:5502/AddToCart/index.html"
+  window.location.href = "http://127.0.0.1:5504/index.html"
 }
 function nextPage(){
-  window.location.href = "http://127.0.0.1:5502/CheckoutPage/index.html"
+  window.location.href = "http://127.0.0.1:5502/index.html"
 }
 function backPage(){
-  window.location.href = "http://127.0.0.1:5502/Musicart/homePage/index.html"
+  window.location.href = "http://127.0.0.1:5500/homePage/index.html"
 }
